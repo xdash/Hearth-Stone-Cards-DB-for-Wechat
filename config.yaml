@@ -1,0 +1,7 @@
+name: hearthstone
+version: 1
+cron:
+    - description: fetch cards from duowan    
+      url: duowan_cards_crawl.php
+      schedule: every 72 hour
+      timezone: Beijing
